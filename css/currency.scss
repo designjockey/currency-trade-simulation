@@ -1,0 +1,106 @@
+$font: 'Roboto Slab', serif;
+
+body,
+input,
+button,
+select,
+textarea,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+.navbar-search .search-query {
+	font-family: $font;
+}
+
+.btn{
+	border-radius: 0;
+	-moz-border-radius: 0;
+}
+.l-gutter{
+	margin-left:10px;
+}
+
+.center{
+	text-align: center;
+}
+
+.inline-block{display:inline-block;}
+
+h3{
+	font-weight: 100;
+	color: #C786E3 !important
+}
+
+.well h4{
+	color: #888;
+	font-size: 24px;
+	vertical-align: middle;
+	width: 150px;
+}
+
+
+/*
+ * Callouts
+ */
+
+/* Common styles for all types */
+.bs-callout {
+	margin: 0px 0 22px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+.bs-callout h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+	margin-bottom: 0;
+}
+
+/* Variations */
+.bs-callout-danger, .bs-callout-Sell {
+	background-color: #fdf7f7;
+	border-color: #eed3d7;
+}
+.bs-callout-danger h4, .bs-callout-Sell h4 {
+	color: #b94a48;
+}
+.bs-callout-warning {
+	background-color: #faf8f0;
+	border-color: #faebcc;
+}
+.bs-callout-warning h4 {
+	color: #c09853;
+}
+.bs-callout-info {
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+.bs-callout-info h4 {
+	color: #3a87ad;
+}
+.bs-callout-success, .bs-callout-Buy{
+	background-color: #DFF0D8;
+	border-color: #468847;
+}
+.bs-callout-success h4, .bs-callout-Buy h4 {
+	color: #468847;
+}
+
+	.btn-lg{
+		width: 200px;
+		padding: 10px 25px;
+	}
+
+
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(../fonts/dazS1PrQQuCxC3iOAJFEJfR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(../fonts/y7lebkjgREBJK96VQi37ZrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
